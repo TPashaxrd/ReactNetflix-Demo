@@ -1,0 +1,46 @@
+.netflix-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #141414;
+  color: white;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-bar {
+  padding: 5px 10px;
+  background-color: #333;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+.user-avatar {
+  border-radius: 50%;
+}

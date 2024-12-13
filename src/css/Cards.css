@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.cards-container {
+    background-image: url('https://wallpapers.com/images/hd/human-monster-in-black-3d-z0kyk9fws0bg0t67.jpg');
+    background-repeat: no-repeat;
+    margin-top: -90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .hashGundem {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Rubik', serif;
+    color: white;
+    margin-top: -150px;
+    margin-left: -825px;
+  }
+  .card {
+    width: 200px;
+    background-color: #141414;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .card-rating {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: center;
+    color: #f5c518;
+  }
+  

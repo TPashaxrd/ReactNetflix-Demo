@@ -1,0 +1,50 @@
+body {
+  background-color: #101114;
+} /*sikim kalktı*/
+
+.faqs-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #141414;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.faqs-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #333;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-item:hover {
+  color: #e50914;
+}
+
+.faq-question {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #b3b3b3;
+}
+
+.active .faq-question {
+  color: #e50914;
+}

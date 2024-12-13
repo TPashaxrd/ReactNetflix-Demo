@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    background-image: url('https://wallpapercat.com/w/full/9/f/a/115882-2500x1666-desktop-hd-netflix-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    height: 400px; 
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+    margin-top: 300px;
+    font-size: 23px;
+    height: 550px;
+    
+}
+.first-msg {
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.first-msg p{
+    font-family: "Poppins", sans-serif;
+}
+.search-bar-home {
+    padding: 12px 20px;
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    color: white;
+  }
+  .go-enter {
+    margin-left: 15px;
+    text-align: center; 
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+}
+.entr-btn {
+    cursor: pointer;
+    color: white;
+    background-color: #E50914;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+.entr-btn:hover {
+    background-color: green;
+}
