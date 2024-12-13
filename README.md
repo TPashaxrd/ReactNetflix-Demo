@@ -14,7 +14,7 @@ Bu projede, Netflix'in genel arayüzünü ReactJS ile yeniden inşa ettik. Proje
 
 ## Katkıda Bulunanlar
 
-- **Toprak Ataoğlu** (GitHub: [tpasha](https://github.com/tpasha)): Proje sahibi ve baş geliştirici.
+- **Toprak Ataoğlu** (GitHub: [tpasha](https://github.com/TPashaxrd)): Proje sahibi ve baş geliştirici.
 - **Batineymen**: Tasarım ve geliştirme sürecinde ortaklık yaptı.
 
 ## Kurulum ve Çalıştırma
